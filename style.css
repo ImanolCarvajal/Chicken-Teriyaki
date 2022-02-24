@@ -1,0 +1,18 @@
+/* Declaring custom properties */
+* {
+  box-sizing: border-box;
+  border: thin solid beige;
+}
+
+#menu {
+background-color: black;
+color: black
+}
+
+#menu > ul {
+
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+}
