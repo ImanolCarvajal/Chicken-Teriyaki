@@ -55,11 +55,26 @@ background-color: black;
 
 
 
-.visor_imagenes {
-  text-align: center;
-  color: green;
-  background-color: #000;
+#content {
+  padding: 1em;
+  display: grid;
+  grid-column-gap: 2em;
+  grid-template-columns: 1fr 1fr 1fr;
 }
+
+.card hr {
+  color: #42cdc6;
+}
+
+.card-image img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.card-title, .card-subtitle, .card-views, .card-reviews {
+  padding: 0.5em;
+}
+
 
 
 
@@ -157,3 +172,24 @@ background-color: black;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+
+
+.imagenes {
+  
+}
+
+
+
+
+
+#nombres{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.columnas h2, .columnas h4  {
+text-align: center;
+
+
+}
