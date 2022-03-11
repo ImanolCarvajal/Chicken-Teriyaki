@@ -3,14 +3,13 @@
   box-sizing: border-box;
 
   /* border: thin solid green ; */
-  text-align: right;
 }
 
 #header ul li {
   display: inline-block;
   list-style: none;
   background-color: #black;
-
+  text-align: right;
 }
 #menu {
   background-color: black;
@@ -28,13 +27,18 @@
 #menu > ul > li {
   display: inline-block;
   padding: 0.99em;
-  text-align: left;
+  text-align: right;
 
+}
+
+.banner img {
+  width: 100%;
+  max-width: 100%;
 }
 
 #E-Learing{
 display: inline-block;
-padding: 0.5em
+padding: 0.5em;
 text-align: left;
 background-color: black;
 }
@@ -66,20 +70,18 @@ background-color: black;
   color: #42cdc6;
 }
 
-.card-image img {
-  width: 100%;
-  max-width: 100%;
+.columnas {
+  text-align: center;
+}
+
+.columnas img {
+  width: 60%;
+  max-width: 60%;
 }
 
 .card-title, .card-subtitle, .card-views, .card-reviews {
   padding: 0.5em;
 }
-
-
-
-
-
-
 
 
 #banner {
@@ -89,6 +91,7 @@ background-color: black;
 #banner img {
   width: 100%;
   max-width: 100%;
+
 }
 
 #footer {
@@ -148,7 +151,7 @@ background-color: black;
 
 }
 
-.textoenlafoto{
+.texto{
   position: absolute;
   top: 30%;
   left: 50%;
@@ -157,7 +160,7 @@ background-color: black;
   font-weight: 700;
   font-size: 60px;
 }
-.textoenlafoto1{
+.texto1{
   position: absolute;
   top: 40%;
   left: 45%;
@@ -176,13 +179,6 @@ background-color: black;
 
 
 
-.imagenes {
-  
-}
-
-
-
-
 
 #nombres{
   display: grid;
@@ -190,6 +186,106 @@ background-color: black;
 }
 .columnas h2, .columnas h4  {
 text-align: center;
+}
+
+.ola {
+background-color: gray;
+  text-align: center;
+}
 
 
+.menu {
+ overflow: hidden;
+ background-color: white;
+ color: black;
+ font-family: Arial;
+}
+
+
+.menu a {
+ float: left;
+ font-size: 16px;
+ color:black;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+}
+
+
+.lado {
+ float: left;
+ overflow: hidden;
+}
+
+.lado .dropbtn {
+ font-size: 16px;
+ border: none;
+ outline: none;
+ color: black;
+ padding: 14px 16px;
+ background-color: white;
+ font-family: inherit;
+ margin: 0;
+}
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+ background-color: red;
+}
+
+
+.lado-content {
+ display: none;
+ position: absolute;
+ background-color: white;
+ min-width: 160px;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ z-index: 1;
+}
+
+
+.lado-content a {
+ float: none;
+ color: black;
+ padding: 12px 16px;
+ text-decoration: none;
+ display: block;
+ text-align: left;
+}
+
+
+.dropdown-content a:hover {
+ background-color: white;
+}
+
+
+.dropdown:hover .dropdown-content {
+ display: block;
+}
+
+.dropbtn {
+margin-right: 200px;
+
+}
+
+
+
+#columnas2 {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+.Universidades img {
+max-width: 60px;
+height: 100px
+
+}
+
+
+.videos {
+background-color: white;
+  text-align: center;
 }
