@@ -304,10 +304,11 @@ transform: translate(-50%, -50%);
 }
 
 
-
-
-
 .videos {
 background-color: white;
   text-align: center;
+}
+
+.columnas h2, .columnas h4  {
+text-align: center;
 }
